@@ -7,6 +7,7 @@
     <title>My portfolio</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
@@ -14,13 +15,16 @@
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Teams</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </nav>
 
@@ -29,8 +33,9 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Yohani Abeykoon</div>
-                <div class="text-3">And I'm <span>Undergraduate</span></div>
+                <div class="text-2">Prakash Shahi</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                
             </div>
         </div>
     </section>
@@ -51,5 +56,7 @@
         aut distinctio, voluptate voluptas. 
         Optio maiores soluta, quo saepe sit, architecto cumque fuga laborum, error nemo distinctio!
     </p>
+
+    <script src="./script.js"></script>
 </body>
 </html>
